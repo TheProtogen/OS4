@@ -33,6 +33,7 @@ public class ThreadStuff extends Thread{
 	}
 	
 	public void carroAnda() {
+		//vrooom Vrooomm VROOOOMMM
 		sentido = random.nextInt(4);
 		System.out.println("Thread n."+getId()+" andou foi para a "+direct[sentido]);
 	}
