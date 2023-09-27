@@ -24,7 +24,7 @@ public class ThreadPessoas extends Thread {
 		while (pessoaPos < this.CORREDOR_METROS) {
 			//this.CORREDOR_METROS quer dizer que cada pessoa tem seu próprio corredor
 			try {
-				sleep(100); //1 segundo :')
+				sleep(1000); //1 segundo :')
 				this.pessoaPos += random.nextInt(3)+4;
 				if (this.pessoaPos > CORREDOR_METROS) {
 					System.out.println("[ ~ ] Thread n."+getId()+" ia andar "+(this.pessoaPos - 
